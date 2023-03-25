@@ -9,7 +9,7 @@ const handleHtmlContent = answer => {
 }
 
 const handleSeach = (question) => {
-  const API_URL = "http://localhost:8080"
+  const API_URL = "https://extension-testapi-for-chrome-production.up.railway.app"
 
   fetch(`${API_URL}/answer?question=${question}`)
     .then(response => response.json())
