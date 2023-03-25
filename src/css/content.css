@@ -1,0 +1,25 @@
+.dialog-gpt {
+    font-family: "Inter", sans-serif;
+    color: #bdc1c6;
+    --center-width: 652px;
+    --rhs-margin: 76px;
+    --rhs-width: 372px;
+    --grid-gutter-width: 20px;
+    --grid-column-width: 36px;
+    --center-abs-margin: 28px;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    text-align: left;
+    line-height: 1.58;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    border: 3px solid gray;
+    border-radius: 10px;
+    letter-spacing: 0.3px;
+    background: #000;
+}
+
+.dialog-gpt h1 {
+    font-size: 25px;
+    font-style: italic;
+}

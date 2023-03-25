@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "My GPT-Assistant",
+    "description": "GPT-4 intelLigence to help you with google searches",
+    "version": "1.0.0",
+    "version_name": "1.0.0 beta",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+        {
+            "matches": ["https://*.google.com.br/*"],
+            "css": ["./src/css/content.css"],
+            "js": ["./src/js/script.js"]
+        }
+    ]
+}
